@@ -23,8 +23,6 @@ export const RegisterForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = (formData, actions) => {
-    // e.preventDefault();
-    // const form = e.currentTarget;
     dispatch(register({ ...formData }));
     actions.resetForm();
   };

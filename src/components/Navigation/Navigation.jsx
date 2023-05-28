@@ -1,8 +1,5 @@
-// import { NavLink } from 'react-router-dom';
-import { UserMenu } from '../UserMenu/UserMenu';
-// import { AuthNav } from '../AuthNav/AuthNav';
+import { UserMenu } from './UserMenu/UserMenu';
 import { useAuth } from 'hooks';
-// import { Nav } from 'react-bootstrap';
 
 export const Navigation = () => {
   const { isLoggedIn } = useAuth();
