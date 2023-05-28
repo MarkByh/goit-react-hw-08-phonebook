@@ -1,0 +1,32 @@
+.logform {
+  position: relative;
+  padding: 60px 0px;
+  border: 1px solid gray;
+  border-radius: 9px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.btn {
+  padding: 5px;
+  top: 7px;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  background-color: #fff;
+  border: none;
+  &:hover {
+    color: blue;
+  }
+}
+.error {
+  font-size: 13px;
+  color: brown;
+}

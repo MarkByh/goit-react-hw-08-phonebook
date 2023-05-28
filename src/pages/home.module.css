@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin: 300px auto;
+  justify-content: center;
+  align-items: center;
+}
+.brn {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 {
+  text-align: center;
+  text-decoration: none;
+  width: 130px;
+  background-color: #e1e9f2;
+}
+.btn2 {
+  text-align: center;
+  text-decoration: none;
+  width: 130px;
+}
