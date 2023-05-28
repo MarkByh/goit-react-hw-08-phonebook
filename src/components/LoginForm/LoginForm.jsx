@@ -27,7 +27,7 @@ export const LoginForm = () => {
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <TextField
             sx={{ width: '60ch' }}
-            id="outlined-basic"
+            id="outlined-bas"
             label="Email"
             variant="outlined"
             type="email"
