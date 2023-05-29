@@ -7,7 +7,7 @@ import { fetchContacts } from 'redux/contactsSllice/operations';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { selectContacts, selectError, selectIsLoading, } from 'redux/selectors';
-import Loader from '../components/Loader/Loader'
+import Loader from '../../components/Loader/Loader'
 
 export default function Contacts() {
   const contacts = useSelector(selectContacts);
